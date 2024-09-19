@@ -14,7 +14,7 @@ It's really worth to think about switching deafult solver to `mamba`, see [conda
 
 ### Define `jpc` environment using `jpc_env.yml` file:  
 ```
-conda env create -f jpc_env.yml
+conda env create -n jpc -f jpc_env.yml
 ```
 and activate;
 ```
